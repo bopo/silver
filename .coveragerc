@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/silver
+   */site-packages/silver
+
+[run]
+branch = true
+source =
+    silver
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
